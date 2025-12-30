@@ -1,7 +1,52 @@
-# enviroments
+## Python ##
+# Entornos virtuales
 venv/
 env/
+.env/
+.venv/
+ENV/
+bin/
+lib/
+include/
+share/
 
-# caches
+# Caches y compilación
 __pycache__/
+*.py[cod]
+*$py.class
 .pytest_cache/
+
+# Distribución / Paquetes
+dist/
+build/
+coverage.xml
+.coverage
+
+## Visual Studio (Morado) ##
+## Archivos de solución y usuario
+*.user
+*.userosscache
+*.sln.docstates
+
+## Carpetas de salida (Binarios)
+[Bb]in/
+[Oo]bj/
+[Aa]rm/
+[Aa]rm64/
+[Xx]64/
+[Xx]86/
+
+## Caché y archivos temporales de Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.opendb
+*.db
+*.VC.db
+
+## Archivos de Test y Cobertura
+TestResults/
+*.trx
+*.coverage
