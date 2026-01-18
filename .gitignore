@@ -6,8 +6,6 @@ env/
 .venv/
 ENV/
 bin/
-lib/
-include/
 share/
 
 # Caches y compilación
